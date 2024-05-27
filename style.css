@@ -1,0 +1,89 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container {
+        border: 2px solid #5fb15f;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 70px;
+        width: 55vh;
+        height: 88vh;
+        padding: 10px;
+        position: relative;
+    }
+
+    .calculator #display {
+        border: 1px solid #000000;
+        border-radius: 7px;
+        background-color: #000000;
+        height: 90px;
+        width: 51vh;
+        padding: 13px;
+        color: aliceblue;
+        font-size: 2em;
+        text-align: right;
+        align-items: center;
+    }
+
+    .buttons1 {
+        border: 2px solid #fa1212;
+        background-color: #fa1212;
+        border-radius: 10px;
+        color: wheat;
+        font-size: 2em;
+        width: 70px;
+        height: 90px;
+        margin: 12px 0px 12px 41vh;
+        align-items: center;
+    }
+
+    .buttons {
+        border: 2px solid #777777;
+        background-color: #777777;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 2em;
+        width: 70px;
+        height: 90px;
+        margin: 0px 15px 15px 10px;
+    }
+
+    .button {
+        display: flex;
+    }
+
+    .buttons2 {
+        background-color: #ff9900;
+        border: 2px solid #ff9900;
+        background-color: #ff9900;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 2em;
+        width: 70px;
+        height: 90px;
+        margin: 0px 15px 15px 10px;
+    }
+
+    .buttons3 {
+        background-color: #17c54b;
+        border: 2px solid #17c54b;
+        background-color: #17c54b;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 2em;
+        width: 70px;
+        height: 90px;
+        margin: 0px 15px 15px 10px;
+    }
